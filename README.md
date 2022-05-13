@@ -223,3 +223,11 @@ This approach is not perfect, and there are a few drawbacks:
 - Test coverage doesn't support branch coverage (limitation of `lcov` format in coverage-py).
 - Running tests for multiple python versions?
 - Maybe remote caching?
+
+## Misc.
+
+Bazelisk as bazel launcher: https://github.com/bazelbuild/bazelisk
+
+```
+# bazelisk build //...
+```
